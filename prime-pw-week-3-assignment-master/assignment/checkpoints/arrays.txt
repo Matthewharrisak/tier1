@@ -1,0 +1,16 @@
+## Type your responses on a new line
+
+What code would you write to do the following:
+
+# 1 - Find the number of items in an array?
+To find the items in an array, you would use array.length.
+# 2 - Add a new value to the end of an array?
+Adding a new value to the end of an array is array.push
+# 3 - Add a new value to the beginning of an array?
+Array.unshift lets you add a value to the beginning of the Array
+# 4 - Remove the last item in an array?
+Array.pop is used to remove the last item in the array.
+# 5 - Remove the first item in an array?
+Array.shift is allows you to remove the first item in the Array.
+# 6 - Create a new, empty array and assign it to a variable?
+Let cups = [ ];
