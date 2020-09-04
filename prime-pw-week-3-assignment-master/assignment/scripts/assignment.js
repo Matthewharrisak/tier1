@@ -8,9 +8,15 @@ let myValue = 0;
 console.log(7);
 // 4. Remove the last item in the array, then console log the array
 chickens.pop();
+console.log( chickens );
 // 5. Add the value of number 15 to the end of the array
 chickens.push( 15);
 // 6. Write a `for` loop that console logs each value in the array
+for (let i = 0; i < chickens.length; i++) {
+
+console.log( 'look at all these chickens!!!' , chickens[i]);
+}
+
 
 // STRETCH GOALS
 
