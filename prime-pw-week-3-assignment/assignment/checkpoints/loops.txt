@@ -1,0 +1,24 @@
+# Type your responses on a new line
+
+# 1 - Describe the benefit(s) of using loops in your code.
+Loops are beneficial in code because they allow you to run repeated action based on your conditional.
+
+# 2 - What kind of loop would you want to use if you wanted to do something a certain number of times: for or while?
+The 'for' loop.
+
+# 3 - What kind of loop would you want to use if you wanted to do something as long as a condition were true: for or while?
+The 'While' loop.
+
+# 4 - What is wrong with this for loop?
+ let favoriteFoods = ['tacos', 'pasta', 'sushi'];
+  for(let i = 0; i < favoriteFoods.length; i++) {
+    console.log('I like to eat', i);
+  }
+
+The console.log is missing some information and should look like this
+console.log('I like to eat', favoriteFoods[i]);
+}
+
+
+# 5 - What does it mean if you get a console error like this: "Uncaught ReferenceError: i is not defined"
+This console error means that I is not defined in your code block. 
